@@ -2,11 +2,12 @@
 
 int main()
 {
-  int array[10];
   int size;
-
-  printf("Enter size of array between 1 and 10 inclusive: ");
+  
+  printf("Enter size of array: ");
   scanf("%d", &size);
+  
+  int array[size];
 
   for (int i = 0; i < size; i++)
   {
@@ -16,7 +17,7 @@ int main()
 
   int position;
   printf("What position do you want to insert: ");
-  scanf("%d", &position)
+  scanf("%d", &position);
 
   return 0;
 }
