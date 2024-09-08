@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
   struct node
   {
@@ -8,6 +8,4 @@ int main()
     int data;
     struct node *next;  
   };
-
-  return 0;
 }

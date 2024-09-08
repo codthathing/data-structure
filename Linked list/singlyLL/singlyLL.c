@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+void main()
 {
   struct node
   {                    // This is the structure of each node in the linkedlist
@@ -34,6 +34,4 @@ int main()
   newnode->next = lastnode;
 
   printf("%d", firstnode->data);
-
-  return 0;
 }
