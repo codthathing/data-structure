@@ -27,8 +27,7 @@ void main()
 
 struct node *insertBegin(struct node *temp)
 {
-  struct node *newnode;
-  newnode = (struct node *)malloc(sizeof(struct node));
+  struct node *newnode = (struct node *)malloc(sizeof(struct node));
   printf("What value do you want to insert: ");
   scanf("%d", &newnode->data);
 
@@ -40,8 +39,7 @@ struct node *insertBegin(struct node *temp)
 
 struct node *insertEnd(struct node *temp)
 {
-  struct node *newnode;
-  newnode = (struct node *)malloc(sizeof(struct node));
+  struct node *newnode = (struct node *)malloc(sizeof(struct node));
   printf("What value do you want to insert: ");
   scanf("%d", &newnode->data);
 
@@ -67,8 +65,7 @@ struct node *insertAny(struct node *temp)
     temp = temp->next;
   }
 
-  struct node *newnode;
-  newnode = (struct node *)malloc(sizeof(struct node));
+  struct node *newnode = (struct node *)malloc(sizeof(struct node));
   printf("What value do you want to insert: ");
   scanf("%d", &newnode->data);
 
