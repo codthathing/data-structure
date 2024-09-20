@@ -16,10 +16,10 @@ struct node *doublyInput()
     scanf("%d", &newnode->data);
 
     newnode->next = NULL;
+    newnode->prev = NULL;
 
     if (head == NULL)
     {
-      newnode->prev = NULL;
       head = temp = newnode;
     }
     else
