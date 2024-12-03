@@ -8,6 +8,12 @@ struct node
   struct node *next;
 };
 
-struct node *doublyInput();
+struct NodePair
+{
+  struct node *head;
+  struct node *tail;
+};
+
+struct NodePair doublyInput();
 
 #endif

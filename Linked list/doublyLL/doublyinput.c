@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include "doublyfunction.h"
 
-struct node *doublyInput()
+struct NodePair doublyInput()
 {
-  struct node *head, *newnode, *temp;
+  struct node *head, *newnode, *temp, *tail;
   head = NULL;
 
-  int runcode;
+  int runcode = 1;
 
   while (runcode)
   {
@@ -33,7 +33,8 @@ struct node *doublyInput()
     printf("Do you want to enter new element (0 / 1)? ");
     scanf("%d", &runcode);
   }
-  temp = head;
+  tail = temp;
+  struct NodePair pointers = {head, tail};
 
-  return temp;
+  return pointers;
 }
