@@ -1,6 +1,7 @@
 {
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
-    "singlyfunction.h": "c"
+    "singlyfunction.h": "c",
+    "circularsinglyfunction.h": "c"
   }
 }
