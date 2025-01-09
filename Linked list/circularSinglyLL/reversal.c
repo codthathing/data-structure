@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "circularSinglyFunction.h"
 
-void main() {
+int main()
+{
 
-}
+  return 0;
+};
